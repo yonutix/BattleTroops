@@ -1,0 +1,99 @@
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [aticfx32.dll 8.17.10.1036]
+    Renderer: ATI Mobility Radeon HD 5400 Series
+    Vendor:   ATI
+    VRAM:     1014 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=1 DF24=1 INTZ=1 RAWZ=0 NULL=1 RESZ=1 SlowINTZ=1
+desktop: 1600x900 60Hz; virtual: 1600x900 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+Initialize engine version: 3.5.3f3
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Yonutix\Documents\BattleTroops\gfhg_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Yonutix\Documents\BattleTroops\gfhg_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Yonutix\Documents\BattleTroops\gfhg_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Yonutix\Documents\BattleTroops\gfhg_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Yonutix\Documents\BattleTroops\gfhg_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Yonutix\Documents\BattleTroops\gfhg_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Yonutix\Documents\BattleTroops\gfhg_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Users\Yonutix\Documents\BattleTroops\gfhg_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+- Completed reload, in  0.112 seconds
+StartQCAR
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+QCARBehaviour:StartQCAR() (at C:\Users\Yonutix\Documents\BattleTroops\Assets\Qualcomm Augmented Reality\Scripts\QCARBehaviour.cs:372)
+QCARBehaviour:OnApplicationPause(Boolean) (at C:\Users\Yonutix\Documents\BattleTroops\Assets\Qualcomm Augmented Reality\Scripts\QCARBehaviour.cs:315)
+ 
+(Filename: C Line: 0)
+
+DllNotFoundException: QCARWrapper
+  at (wrapper managed-to-native) CameraDevice:cameraDeviceInitCamera ()
+  at CameraDevice.Init () [0x00000] in C:\Users\Yonutix\Documents\BattleTroops\Assets\Qualcomm Augmented Reality\Scripts\CameraDevice.cs:92 
+  at QCARBehaviour.StartQCAR () [0x0000a] in C:\Users\Yonutix\Documents\BattleTroops\Assets\Qualcomm Augmented Reality\Scripts\QCARBehaviour.cs:374 
+  at QCARBehaviour.OnApplicationPause (Boolean pause) [0x00011] in C:\Users\Yonutix\Documents\BattleTroops\Assets\Qualcomm Augmented Reality\Scripts\QCARBehaviour.cs:315 
+ 
+(Filename: C Line: 0)
+
+DllNotFoundException: QCARWrapper
+  at (wrapper managed-to-native) TrackerManager:trackerManagerInitTracker (int)
+  at TrackerManager.InitTracker (Type trackerType) [0x0000c] in C:\Users\Yonutix\Documents\BattleTroops\Assets\Qualcomm Augmented Reality\Scripts\TrackerManager.cs:85 
+  at DataSetLoadBehaviour.Awake () [0x0001b] in C:\Users\Yonutix\Documents\BattleTroops\Assets\Qualcomm Augmented Reality\Scripts\DataSetLoadBehaviour.cs:60 
+ 
+(Filename: C Line: 0)
+
+DllNotFoundException: QCARWrapper
+  at (wrapper managed-to-native) QCAR:getInitErrorCode ()
+  at QCAR.CheckInitializationError () [0x00000] in C:\Users\Yonutix\Documents\BattleTroops\Assets\Qualcomm Augmented Reality\Scripts\QCAR.cs:52 
+  at DefaultInitializationErrorHandler.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C Line: 0)
+
+Platform assembly: C:\Users\Yonutix\Documents\BattleTroops\gfhg_Data\Managed\System.dll (this message is harmless)
+DllNotFoundException: QCARWrapper
+  at (wrapper managed-to-native) QCAR:getInitErrorCode ()
+  at QCAR.CheckInitializationError () [0x00000] in C:\Users\Yonutix\Documents\BattleTroops\Assets\Qualcomm Augmented Reality\Scripts\QCAR.cs:52 
+  at QCARBehaviour.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C Line: 0)
+
+STARTTTTTT
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+TouchScreen:Start() (at C:\Users\Yonutix\Documents\BattleTroops\Assets\Qualcomm Augmented Reality\Scripts\TouchScreen.cs:59)
+ 
+(Filename: C Line: 0)
+
+Trackable Freya_Conquer lost
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+DefaultTrackableEventHandler:OnTrackingLost() (at C:\Users\Yonutix\Documents\BattleTroops\Assets\Qualcomm Augmented Reality\Scripts\DefaultTrackableEventHandler.cs:86)
+DefaultTrackableEventHandler:Start() (at C:\Users\Yonutix\Documents\BattleTroops\Assets\Qualcomm Augmented Reality\Scripts\DefaultTrackableEventHandler.cs:31)
+ 
+(Filename: C Line: 0)
+
+StopQCAR
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+QCARBehaviour:StopQCAR() (at C:\Users\Yonutix\Documents\BattleTroops\Assets\Qualcomm Augmented Reality\Scripts\QCARBehaviour.cs:399)
+QCARBehaviour:OnDisable() (at C:\Users\Yonutix\Documents\BattleTroops\Assets\Qualcomm Augmented Reality\Scripts\QCARBehaviour.cs:325)
+ 
+(Filename: C Line: 0)
+
+DllNotFoundException: QCARWrapper
+  at (wrapper managed-to-native) CameraDevice:cameraDeviceStopCamera ()
+  at CameraDevice.Stop () [0x00000] in C:\Users\Yonutix\Documents\BattleTroops\Assets\Qualcomm Augmented Reality\Scripts\CameraDevice.cs:129 
+  at QCARBehaviour.StopQCAR () [0x0004a] in C:\Users\Yonutix\Documents\BattleTroops\Assets\Qualcomm Augmented Reality\Scripts\QCARBehaviour.cs:411 
+  at QCARBehaviour.OnDisable () [0x00000] in C:\Users\Yonutix\Documents\BattleTroops\Assets\Qualcomm Augmented Reality\Scripts\QCARBehaviour.cs:325 
+ 
+(Filename: C Line: 0)
+
+Trackable Freya_Conquer lost
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+DefaultTrackableEventHandler:OnTrackingLost() (at C:\Users\Yonutix\Documents\BattleTroops\Assets\Qualcomm Augmented Reality\Scripts\DefaultTrackableEventHandler.cs:86)
+DefaultTrackableEventHandler:OnTrackableStateChanged(Status, Status) (at C:\Users\Yonutix\Documents\BattleTroops\Assets\Qualcomm Augmented Reality\Scripts\DefaultTrackableEventHandler.cs:53)
+TrackableBehaviour:OnDisable() (at C:\Users\Yonutix\Documents\BattleTroops\Assets\Qualcomm Augmented Reality\Scripts\TrackableBehaviour.cs:195)
+ 
+(Filename: C Line: 0)
+
